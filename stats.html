@@ -11,6 +11,7 @@
     th, td { border:1px solid #333; padding:8px; text-align:center; }
     th { background:#333; color:#fff; }
     tr:nth-child(even) { background:#ddd; }
+    .counter { text-align:center; margin-top: 30px; }
   </style>
 </head>
 <body>
@@ -22,6 +23,15 @@
     </tr>
     <tbody id="visitsTable"></tbody>
   </table>
+
+  <div class="counter">
+    <!-- SmallCounter Visitor by Country -->
+    <a target="_blank" href="https://smallcounter.com/conline/1756229541/">
+      <img alt="visitors by country counter" border="0" src="https://smallcounter.com/online/fcc.php?id=1756229541">
+    </a>
+    <br>
+    <a target="_blank" href="https://smallcounter.com">flag counter</a>
+  </div>
 
   <script>
     let visits = JSON.parse(localStorage.getItem('visits') || "[]");
